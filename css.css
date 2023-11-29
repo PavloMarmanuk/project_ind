@@ -1,0 +1,226 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #ffffff;
+}
+
+.header_text1 {
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 80px;
+}
+
+.header_text {
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 25px;
+}
+
+.block_menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.menu_link {
+    border: 1px solid #998675;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px 17px;
+    background-color: #ffffff;
+    color: #998675;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.active {
+    display: flex;
+    padding: 5px 17px;
+    border-radius: 5px;
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.menu_link:hover {
+    border-radius: 5px;
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.block_ {
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_photo {
+    display: flex;
+    margin-top: 84px;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.item_list {
+    list-style: none;
+    display: block;
+}
+
+.bg_ {
+    height: 336px;
+    width: 369px;
+    background: #fbfaf8;
+}
+
+.ft {
+    color: #c7b299;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 28px;
+    padding-top: 28px;
+}
+
+.photos {
+    width: 1170px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.st {
+    font-family: 'Montserrat', sans-serif;
+    color: #d1d1d1;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 28px;
+    padding-top: 15px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 13px 45px;
+    text-transform: uppercase;
+    border-color: #998675;
+    background-color: #998675;
+    color: #fff;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.section {
+    position: relative;
+    text-align: center;
+}
+
+.BG {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.headd {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+.sub {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 35px;
+}
+
+.time {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #c7b299;
+    padding-top: 44px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1180px) {
+    .container1 {
+        height: 2800px;
+    }
+
+    .block_menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_link {
+        margin-bottom: 10px;
+    }
+
+    .block_photo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item_list {
+        margin-bottom: 20px;
+    }
+
+    .photos {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        margin-bottom: 0;
+    }
+
+    .content h2,
+    .content .sub,
+    .content .time {
+        display: none;
+    }
+}
